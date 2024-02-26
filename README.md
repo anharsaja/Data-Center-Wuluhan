@@ -1,64 +1,122 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+### **💡 Tentang Aplikasi**
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+![Preview Image](-- FOTO REVIEW --)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> Aplikasi POS atau point of sales adalah aplikasi yang digunakan untuk mengelola transaksi pada sebuah toko atau oleh kasir. Aplikasi ini dibuat menggunakan Laravel v5.8 dan minimal PHP v7.1 jadi apabila pada saat proses instalasi atau penggunaan terdapat error atau bug kemungkinan karena versi dari PHP yang tidak support.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### **🙇 Anggota Magang:**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+-   Anhar Mukhlis 
+-   Danu Adiwidya Brahmantara
+-   Agung Dwi Firmansyah
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### **📝 To-Do List**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+-   [ ] Manajemen Bank Data
+-   [ ] Manajemen Dokumen Data Center
+-   [ ] Manajemen Admins
+-   [ ] Manajemen Users
+-   [ ] Tampilan Profiles
+-   [ ] Tampilan Bank Data
+-   [ ] Tampilan Data Center Keseluruhan
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### **🕙 Instalasi & Kolaborasi**
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+1. Clone repository
+    
+    ```bash
+    git clone https://github.com/anharsaja/Data-Center-Wuluhan
+    ```
 
-## Contributing
+2. Masuk ke folder repository
+    
+    ```bash
+    cd Data-Center-Wuluhan
+    ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. Install dependency
+    
+    ```bash
+    composer update
+    composer install
+    ```
 
-## Code of Conduct
+4. Copy file `.env.example` menjadi `.env`
+    
+    ```bash
+    cp .env.example .env
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5. Generate key
+    
+    ```bash
+    php artisan key:generate
+    ```
 
-## Security Vulnerabilities
+6. Buat database baru dengan nama `datacenter` (sesuaikan dengan nama database yang ada di file `.env`) melalui phpmyadmin atau terminal
+    
+    ```bash
+    mysql -u root -p
+    create database datacenter;
+    exit;
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+7. Migrasi database
+    
+    ```bash
+    php artisan migrate
+    ```
+    
+8. Lakukan seeding data
+    
+    ```bash
+    php artisan db:seed
+    ```
 
-## License
+9. Jalankan server
+    
+    ```bash
+    php artisan serve
+    ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+10. Buka browser dan akses `http://localhost:8000`
+
+11. Buat perubahan
+12. Tambahkan perubahan ke repository
+    
+    ```bash
+    git add .
+    ```
+
+13. Commit perubahan
+    
+    ```bash
+    git commit -m "pesan commit"
+    ```
+
+14. Push ke repository
+    
+    ```bash
+    git push origin main
+    ```
+
+15. Lakukan Sync dengan Repository Utama
+    
+    ```bash
+    git pull
+    ```
+
+### **🗒 Catatan :**
+
+---
+
+-   Jika ada perubahan pada repository utama, maka lakukan langkah 5 untuk mengambil perubahan tersebut.
+-   Jika ada konflik pada langkah 5, maka selesaikan konflik (Diskusikan di Grup)
