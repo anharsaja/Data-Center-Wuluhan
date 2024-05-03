@@ -24,75 +24,6 @@
 
 <body id="top">
 
-    <!-- 
-    - #HEADER
-  -->
-
-    <header class="header" data-header>
-        <div class="container">
-
-            <div class="overlay" data-overlay></div>
-
-            <a href="#">
-                <h1 class="logo">Data Center</h1>
-            </a>
-
-            <nav class="navbar" data-navbar>
-
-                <div class="navbar-top">
-                    <a href="#" class="logo">Desinic</a>
-
-                    <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button>
-                </div>
-
-                <ul class="navbar-list">
-
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link" data-navbar-link>Home</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#about" class="navbar-link" data-navbar-link>About</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#services" class="navbar-link" data-navbar-link>Services</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#features" class="navbar-link" data-navbar-link>Features</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
-                    </li>
-
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-
-            <a href="#" class="btn">
-                <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-
-                <span>Login</span>
-            </a>
-
-            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-                <ion-icon name="menu-outline"></ion-icon>
-            </button>
-
-        </div>
-    </header>
-
-
-
-
 
     <main>
         <article>
@@ -106,23 +37,26 @@
 
                     <div class="hero-content">
 
-                        <p class="hero-subtitle">We Are Product Designer From UK</p>
+                        <h2 class="h2 hero-title">Data Center Kecamatan Wuluhan</h2>
 
-                        <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+                        <p class="hero-subtitle">Kecamatan Wuluhan - Kabupaten Jember - Provinsi Jawa Timur</p>
 
-                        <p class="hero-text">
-                            Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
-                            at purus.
-                        </p>
+                        <!-- <p class="hero-text">
+                            bahwa untuk melaksanakan ketentuan Pasal 228 dan Pasal
+                            230 Undang-Undang Nomor 23 Tahun 2014 tentang
+                            Pemerintahan Daerah, perlu menetapkan Peraturan
+                            Pemerintah tentang Kecamatan;
+                        </p> -->
 
-                        <button class="btn">Learn More</button>
+                        <button class="btn">
+                            <a href="{{route('login')}}"> > Login</a>
+                        </button>
 
                     </div>
 
-                    <figure class="hero-banner">
-                        <img src="{{asset('images/hero-banner.png')}}" width="694" height="529" loading="lazy" alt="hero-banner" class="w-100 banner-animation">
-                    </figure>
-
+                    <div class="hero-banner">
+                        <img src="{{asset('images/camat.png')}}" width="694" height="529" z-index="1" loading="lazy" alt="hero-banner" class="w-100 banner-animation">
+                    </div>
                 </div>
             </section>
 
@@ -138,44 +72,36 @@
                 <div class="container">
 
                     <figure class="about-banner">
-                        <img src="{{asset('images/about-banner.png')}}" width="700" height="532" loading="lazy" alt="about banner" class="w-100 banner-animation">
+                        <img src="{{asset('images/map.png')}}" width="700" height="532" loading="lazy" alt="about banner" class="w-100 banner-animation">
                     </figure>
 
                     <div class="about-content">
 
-                        <h2 class="h2 section-title underline">Why Our Agency</h2>
+                        <h2 class="h2 section-title underline">Daerah Wuluhan</h2>
 
                         <p class="about-text">
-                            In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
-                            volutpat metus
-                            lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
-                            hendrerit ut a odio.
+                            Kecamatan mempunyai tugas melaksanakan koordinasi penyelenggaraan pemerintahan, pelayanan publik dan pemberdayaan masyarakat desa. Penyelenggaraan urusan pemerintahan umum Mengkomunikasikan kegiatan pemberdayaan masyarakat Mengkomunikasikan upaya penyelenggaraan ketenteraman dan ketertiban umum
                         </p>
 
-                        <p class="about-text">
-                            Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
-                            vehicula condimentum
-                            arcu.
-                        </p>
 
                         <ul class="stats-list">
 
                             <li class="stats-card">
-                                <p class="h3 stats-title">9875</p>
+                                <p class="h3 stats-title">25</p>
 
-                                <p class="stats-text">Satisfied Clients</p>
+                                <p class="stats-text">Dusun</p>
                             </li>
 
                             <li class="stats-card">
-                                <p class="h3 stats-title">7894</p>
+                                <p class="h3 stats-title">126</p>
 
-                                <p class="stats-text">Project Lunched</p>
+                                <p class="stats-text">Rukun Warga</p>
                             </li>
 
                             <li class="stats-card">
-                                <p class="h3 stats-title">65</p>
+                                <p class="h3 stats-title">716</p>
 
-                                <p class="stats-text">Years Completed</p>
+                                <p class="stats-text">Rukun Tetangga</p>
                             </li>
 
                         </ul>
@@ -196,7 +122,7 @@
             <section class="section service" id="services">
                 <div class="container">
 
-                    <h2 class="h2 section-title underline">Our Speciallization</h2>
+                    <h2 class="h2 section-title underline">Aspek Inovasi</h2>
 
                     <ul class="service-list">
 
@@ -207,12 +133,10 @@
                                     <ion-icon name="telescope-outline"></ion-icon>
                                 </div>
 
-                                <h3 class="h3 title">Strategy & Research</h3>
+                                <h3 class="h3 title">Kesehatan</h3>
 
                                 <p class="text">
-                                    Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                                    suscipit, enim ex
-                                    venenatis ipsum, et porttitor.
+                                    Dalam rangka pencapaian pilar kesehatan pada tahun 2024 diprioritaskan pengelolaan sampah terintegrasi se Kecamatan Wuluhan
                                 </p>
 
                                 <button class="card-btn" aria-label="Show More">
@@ -229,12 +153,10 @@
                                     <ion-icon name="desktop-outline"></ion-icon>
                                 </div>
 
-                                <h3 class="h3 title">Web Development</h3>
+                                <h3 class="h3 title">Sumber Daya</h3>
 
                                 <p class="text">
-                                    Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                                    suscipit, enim ex
-                                    venenatis ipsum, et porttitor.
+                                    Dalam rangka meningkatkan cakupan pelayanan bidang Pendidikan, kesehatan dan social akan dibentuk kelembagaan system layanan rujukan terpadu (SLRT) Tingkat Kecamatan
                                 </p>
 
                                 <button class="card-btn" aria-label="Show More">
@@ -251,12 +173,10 @@
                                     <ion-icon name="globe-outline"></ion-icon>
                                 </div>
 
-                                <h3 class="h3 title">Web Solution</h3>
+                                <h3 class="h3 title">Posyandu</h3>
 
                                 <p class="text">
-                                    Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                                    suscipit, enim ex
-                                    venenatis ipsum, et porttitor.
+                                    Mendorong pelaksanaan posyandu remaja di masing-masing Desa se Kecamatan Wuluhan
                                 </p>
 
                                 <button class="card-btn" aria-label="Show More">
@@ -282,7 +202,7 @@
             <section class="section features" id="features">
                 <div class="container">
 
-                    <h2 class="h2 section-title underline">Our Features</h2>
+                    <h2 class="h2 section-title underline">Pelayanan</h2>
 
                     <ul class="features-list">
 
@@ -382,7 +302,7 @@
             <section class="section blog" id="blog">
                 <div class="container">
 
-                    <h2 class="h2 section-title underline">Our Blog & News</h2>
+                    <h2 class="h2 section-title underline">Desa Wisata</h2>
 
                     <ul class="blog-list">
 
@@ -391,7 +311,7 @@
 
                                 <figure class="banner">
                                     <a href="#">
-                                        <img src="{{asset('images/blog-1.jpg')}}" width="750" height="350" loading="lazy" alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
+                                        <img src="{{asset('images/wisata2.png')}}" width="750" height="350" loading="lazy" alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
                                     </a>
                                 </figure>
 
@@ -399,7 +319,8 @@
 
                                     <h3 class="h3 title">
                                         <a href="#">
-                                            Vestibulum massa arcu, consectetu pellentesque scelerisque.
+                                            Identifikasi dan Dokumentasi Wisata Goa Macan dan Goa Marjan
+
                                         </a>
                                     </h3>
 
@@ -438,7 +359,7 @@
 
                                 <figure class="banner">
                                     <a href="#">
-                                        <img src="{{asset('images/blog-2.jpg')}}" width="750" height="350" loading="lazy" alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover">
+                                        <img src="{{asset('images/wisata3.png')}}" width="750" height="350" loading="lazy" alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover">
                                     </a>
                                 </figure>
 
@@ -446,7 +367,8 @@
 
                                     <h3 class="h3 title">
                                         <a href="#">
-                                            Quisque egestas iaculis felis eget placerat ut pulvinar mi.
+                                            Kejuaraan Paralayang Liga Jatim Series 3 dan Explore Paralayang
+
                                         </a>
                                     </h3>
 
@@ -485,7 +407,7 @@
 
                                 <figure class="banner">
                                     <a href="#">
-                                        <img src="{{asset('images/blog-3.jpg')}}" width="750" height="350" loading="lazy" alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
+                                        <img src="{{asset('images/wisata4.png')}}" width="750" height="350" loading="lazy" alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
                                     </a>
                                 </figure>
 
@@ -493,7 +415,7 @@
 
                                     <h3 class="h3 title">
                                         <a href="#">
-                                            Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere.
+                                            Wisata Pantai Papuma
                                         </a>
                                     </h3>
 
@@ -532,7 +454,7 @@
 
                                 <figure class="banner">
                                     <a href="#">
-                                        <img src="{{asset('images/blog-4.jpg')}}" width="750" height="350" loading="lazy" alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover">
+                                        <img src="{{asset('images/wisata5.png')}}" width="750" height="350" loading="lazy" alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover">
                                     </a>
                                 </figure>
 
@@ -540,7 +462,8 @@
 
                                     <h3 class="h3 title">
                                         <a href="#">
-                                            Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis.
+                                            Event Paralayang Wuluhan dan Explore Wisata Wuluhan
+
                                         </a>
                                     </h3>
 
@@ -597,12 +520,11 @@
 
                 <div class="footer-brand">
 
-                    <a href="#" class="logo">Desinic</a>
+                    <a href="#" class="logo">Wuluhan</a>
 
                     <p class="text">
-                        Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut
-                        feugiat eget,
-                        cursus eget felis.
+                        Kecamatan Wuluhan <br>
+                        Kabupaten Jember
                     </p>
 
                     <ul class="social-list">
@@ -668,20 +590,20 @@
                     </li>
 
                     <li>
-                        <a href="#" class="footer-link">Web Development</a>
+                        <a href="#" class="footer-link">Aspek Inovasi</a>
                     </li>
 
                     <li>
-                        <a href="#" class="footer-link">Web Solution</a>
+                        <a href="#" class="footer-link">Pelayanan</a>
                     </li>
 
                     <li>
-                        <a href="#" class="footer-link">Digital Marketing</a>
+                        <a href="#" class="footer-link">Prestasi</a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="#" class="footer-link">App Design</a>
-                    </li>
+                    </li> -->
 
                 </ul>
 
@@ -764,7 +686,7 @@
 
         <div class="footer-bottom">
             <p class="copyright">
-                &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Right Reserved
+                Copyright &copy; 2024 Jember, Jawa Timur - <a href="#" class="copyright-link">Data Center Kecamatan Wuluhan</a>. All Right Reserved
             </p>
         </div>
 

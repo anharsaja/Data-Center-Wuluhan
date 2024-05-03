@@ -223,7 +223,7 @@ body {
   }
 
   100% {
-    transform: translate(8px, 8px) rotate(1deg);
+    transform: translate(20px, 20px) rotate(1deg);
   }
 }
 
@@ -396,7 +396,8 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-bg-bottom.png"),
+  background-image:
+    /* url("../images/hero-bg-bottom.png"), */
     url("../images/hero-bg.png"),
     var(--gradient-1);
   background-repeat: no-repeat, no-repeat, no-repeat;
@@ -404,6 +405,7 @@ body {
   background-size: auto, cover, auto;
   padding-block-start: 120px;
   padding-block-end: var(--section-padding);
+  z-index: 2;
 }
 
 .hero-content {
@@ -429,6 +431,9 @@ body {
   margin-block-end: 30px;
 }
 
+.hero-banner img {
+  z-index: 1;
+}
 
 
 
@@ -494,6 +499,7 @@ body {
   padding: 30px;
   box-shadow: var(--shadow);
   border-radius: var(--radius-12);
+  height: 470px;
 }
 
 .service-card .card-icon {
@@ -532,9 +538,11 @@ body {
 .service-card .text {
   text-align: center;
   margin-block-end: 20px;
+  height: 120px;
 }
 
 .service-card .card-btn {
+  position: relative;
   margin-inline: auto;
   padding: 15px;
   border: 1px solid var(--winter-sky);
@@ -543,7 +551,7 @@ body {
   transition: var(--transition-1);
 }
 
-.service-card .card-btn:is(:hover, :focus) {
+.service-card .card-btn:is(:hover) {
   color: var(--white);
   background-color: var(--winter-sky);
 }
